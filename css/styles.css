@@ -1,0 +1,248 @@
+:root {
+  --header-color: #212121;
+  --primary-text-color: #757575;
+  --second-text-color: #fff;
+  --primary-title-color: #fff;
+  --second-title-color: #212121;
+  --accent-color: #2196f3;
+}
+/* Убираем подчеркивание */
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+/*Лого */
+.header-logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+.header-logo-dark {
+  color: #212121;
+}
+/* section hero */
+.hero {
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
+
+  background: #2f303a;
+}
+.hero-title {
+  position: absolute;
+  width: 696px;
+  height: 120px;
+  left: 452px;
+  top: 280px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+/* section */
+.feature-list-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+}
+
+.feature-list-text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: height 1.7;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.section-title {
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.section-title-img {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.section-text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18px;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+/* h1 Портфолио */
+.visually-hidden {
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+body {
+  font-family: roboto, sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03;
+}
+
+/* Projects-list */
+.projects-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.projects-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.btn {
+  width: 145px;
+  height: 38px;
+  left: 712px;
+  top: 174px;
+
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+.header-btn {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 685px;
+  top: 464px;
+  background: #2196f3;
+  border-radius: 4px;
+}
+.header-btn :hover {
+  background-color: #188ce8;
+}
+.text-btn {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.9;
+
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: #ffffff;
+}
+.btn-light {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.36px;
+  color: #fff;
+}
+.btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.3;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.btn:hover,
+.btn:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+/* header nav */
+.header {
+  background-color: var(--primary-text-color);
+}
+.menu-list {
+  list-style: none;
+}
+.header-link {
+  text-decoration: none;
+}
+
+.menu-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--accent-color);
+}
+
+.header-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14px;
+  color: #757575;
+}
+.header-link:hover,
+.header-link:focus {
+  color: #2196f3;
+}
+.current {
+  color: var(--accent-color);
+}
+/* Текст */
+
+/* Футер */
+footer {
+  background-color: #2f303a;
+}
+.header-logo-light {
+  color: #ffffff;
+}
+.address {
+  font-style: normal;
+}
+
+.contacts-address {
+  color: rgba(255, 255, 255, 1);
+  line-height: 1.71;
+}
+.contacts-address:hover {
+  color: var(--accent-color);
+}
+.contacts-link {
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.7;
+}
+.contacts-link:hover {
+  color: var(--accent-color);
+}
