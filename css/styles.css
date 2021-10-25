@@ -29,22 +29,10 @@ ul {
 }
 /* section hero */
 .hero {
-  width: 1600px;
-  height: 600px;
-  left: 0px;
-  top: 80px;
-
   background: #2f303a;
 }
 .hero-title {
-  position: absolute;
-  width: 696px;
-  height: 120px;
-  left: 452px;
-  top: 280px;
-
   font-family: Roboto;
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
@@ -56,7 +44,6 @@ ul {
 /* section */
 .feature-list-title {
   font-family: Roboto;
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -132,20 +119,10 @@ body {
   color: #757575;
 }
 .btn {
-  width: 145px;
-  height: 38px;
-  left: 712px;
-  top: 174px;
-
   background: #f5f4fa;
   border-radius: 4px;
 }
 .header-btn {
-  position: absolute;
-  width: 200px;
-  height: 50px;
-  left: 685px;
-  top: 464px;
   background: #2196f3;
   border-radius: 4px;
 }
