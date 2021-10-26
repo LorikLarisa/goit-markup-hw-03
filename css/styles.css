@@ -27,6 +27,7 @@ ul {
 .header-logo-dark {
   color: #212121;
 }
+
 /* section hero */
 .hero {
   background: #2f303a;
@@ -163,26 +164,53 @@ body {
 .header {
   background-color: var(--primary-text-color);
 }
+/* main nav */
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+.site-nav {
+  display: flex;
+  margin-left: 93px;
+}
+
+.site-nav .item + .item {
+  margin-left: 50px;
+}
+
 .menu-list {
   list-style: none;
 }
+/*  
 .header-link {
   text-decoration: none;
-}
+} */
 
-.menu-link {
+.site-nav .menu-link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  color: #212121;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14px;
   letter-spacing: 0.02em;
-
-  color: #212121;
+  text-decoration: none;
 }
 .menu-link:hover,
 .menu-link:focus {
   color: var(--accent-color);
 }
+/* contacs-nav */
+.contacts-nav {
+  display: flex;
+  margin-left: 331px;
+}
 
+.contacts-nav .item + .item {
+  margin-left: 50px;
+}
 .header-link {
   font-weight: 500;
   font-size: 14px;
