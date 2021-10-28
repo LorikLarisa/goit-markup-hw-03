@@ -101,19 +101,36 @@ body {
 
 /* section hero */
 .hero {
+  width: 1600px;
+  height: 600px;
+
+  background: #2f303a;
   background: #2f303a;
 }
 .hero-title {
+  position: absolute;
+  width: 696px;
+  height: 120px;
+  left: 452px;
+  top: 280px;
+
   font-family: Roboto;
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
+
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+
   color: #ffffff;
 }
-/* section */
+/* feature-section */
+.feature-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 94px;
+}
 .feature-list-title {
   font-family: Roboto;
   font-weight: 700;
@@ -125,12 +142,19 @@ body {
   color: #212121;
 }
 
+.feature-list .item {
+  width: 250px;
+}
 .feature-list-text {
   font-weight: normal;
   font-size: 14px;
   line-height: height 1.7;
   letter-spacing: 0.03em;
   color: #757575;
+}
+/* section work */
+.section-work {
+  display: flex;
 }
 .section-title {
   font-size: 36px;
@@ -171,6 +195,18 @@ body {
 }
 
 /* Projects-list */
+.test-conteiner {
+  display: flex;
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.projects-list {
+  display: flex;
+  flex-wrap: wrap;
+}
 .projects-title {
   font-weight: 700;
   font-size: 18px;
@@ -185,11 +221,20 @@ body {
   letter-spacing: 0.03em;
   color: #757575;
 }
+.button-list {
+  display: flex;
+}
 .btn {
   background: #f5f4fa;
   border-radius: 4px;
 }
 .header-btn {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+  margin-top: 30px;
   background: #2196f3;
   border-radius: 4px;
 }

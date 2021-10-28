@@ -22,27 +22,32 @@
   </head>
   <body>
     <!--Шапка сайта-->
-    <header>
-      <nav class="header-nav">
-        <a class="header-logo" href="./index.html"
+    <header class="page-header">
+      <nav class="container main-nav">
+        <a class="header-logo logo-nav" href="./index.html"
           >Web<span class="header-logo-dark">Studio</span></a
         >
-        <ul class="list menu-list">
-          <li><a class="menu-link" href="/index.html">Студия</a></li>
-          <li><a class="menu-link current" href="">Портфолио</a></li>
-          <li><a class="menu-link" href="">Контакты</a></li>
+        <ul class="site-nav menu-list">
+          <li class="item">
+            <a class="menu-link current" href="./index.html">Студия</a>
+          </li>
+          <li class="item">
+            <a class="menu-link" href="./portfolio.html">Портфолио</a>
+          </li>
+          <li class="item"><a class="menu-link" href="">Контакты</a></li>
+        </ul>
+
+        <ul class="contacts-nav menu-list">
+          <li class="item">
+            <a class="header-link menu-link" href="mailto:info@example.com"
+              >info@example.com</a
+            >
+          </li>
+          <li class="item">
+            <a class="header-link" href="tel:+380991111111">+380991111111</a>
+          </li>
         </ul>
       </nav>
-      <ul>
-        <li>
-          <a class="header-link" href="mailto:info@example.com"
-            >info@example.com</a
-          >
-        </li>
-        <li>
-          <a class="header-link" href="tel:+380991111111">+380991111111</a>
-        </li>
-      </ul>
     </header>
     <main>
       <!--Портфолио-->
@@ -63,71 +68,93 @@
             <button type="button" class="btn">Маркетинг</button>
           </li>
         </ul>
-        <ul class="projects-list">
-          <li class="projects-item">
-            <a href="">
-              <img src="./img/img_7.jpg" alt="" width="370" />
-              <h2 class="projects-title">Технокряк</h2>
-              <p class="projects-text">Веб-сайт</p></a
-            >
-          </li>
-          <li class="projects-item">
-            <a href="">
-              <img src="./img/img_8.jpg" alt="" width="370" />
-              <h2 class="projects-title">Постер New Orlean vs Golden Star</h2>
-              <p class="projects-text">Дизайн</p></a
-            >
-          </li>
-          <li class="projects-item">
-            <a href="">
-              <img src="./img/img_9.jpg" alt="" width="370" />
-              <h2 class="projects-title">Ресторан Seafood</h2>
-              <p class="projects-text">Приложение</p></a
-            >
-          </li>
-          <li class="projects-item">
-            <a href="">
-              <img src="./img/img_10.jpg" alt="" width="370" />
-              <h2 class="projects-title">Проект Prime</h2>
-              <p class="projects-text">Маркетинг</p></a
-            >
-          </li>
-          <li class="projects-item">
-            <a href="">
-              <img src="./img/img_11.jpg" alt="" width="370" />
-              <h2 class="projects-title">Проект Boxes</h2>
-              <p class="projects-text">Приложение</p></a
-            >
-          </li>
-          <li class="projects-item">
-            <a href="">
-              <img src="./img/img_12.jpg" alt="" width="370" />
-              <h2 class="projects-title">Inspiration has no Borders</h2>
-              <p class="projects-text">Веб-сайт</p></a
-            >
-          </li>
-          <li class="projects-item">
-            <a href="">
-              <img src="./img/img_13.jpg" alt="" width="370" />
-              <h2 class="projects-title">Издание Limited Edition</h2>
-              <p class="projects-text">Дизайн</p></a
-            >
-          </li>
-          <li class="projects-item">
-            <a href="">
-              <img src="./img/img_14.jpg" alt="" width="370" />
-              <h2 class="projects-title">Проект LAB</h2>
-              <p class="projects-text">Маркетинг</p></a
-            >
-          </li>
-          <li class="projects-item">
-            <a href="">
-              <img src="./img/img_15.jpg" alt="" width="370" />
-              <h2 class="projects-title">Growing Business</h2>
-              <p class="projects-text">Приложение</p></a
-            >
-          </li>
-        </ul>
+        <div class="flex-container">
+          <ul class="projects-list">
+            <div class="projects-element">
+              <li class="projects-item">
+                <a href="">
+                  <img src="./img/img_7.jpg" alt="" width="370" />
+                  <h2 class="projects-title">Технокряк</h2>
+                  <p class="projects-text">Веб-сайт</p></a
+                >
+              </li>
+            </div>
+            <div class="projects-element">
+              <li class="projects-item">
+                <a href="">
+                  <img src="./img/img_8.jpg" alt="" width="370" />
+                  <h2 class="projects-title">
+                    Постер New Orlean vs Golden Star
+                  </h2>
+                  <p class="projects-text">Дизайн</p></a
+                >
+              </li>
+            </div>
+            <div class="projects-element">
+              <li class="projects-item">
+                <a href="">
+                  <img src="./img/img_9.jpg" alt="" width="370" />
+                  <h2 class="projects-title">Ресторан Seafood</h2>
+                  <p class="projects-text">Приложение</p></a
+                >
+              </li>
+            </div>
+            <div class="projects-element">
+              <li class="projects-item">
+                <a href="">
+                  <img src="./img/img_10.jpg" alt="" width="370" />
+                  <h2 class="projects-title">Проект Prime</h2>
+                  <p class="projects-text">Маркетинг</p></a
+                >
+              </li>
+            </div>
+            <div class="projects-element">
+              <li class="projects-item">
+                <a href="">
+                  <img src="./img/img_11.jpg" alt="" width="370" />
+                  <h2 class="projects-title">Проект Boxes</h2>
+                  <p class="projects-text">Приложение</p></a
+                >
+              </li>
+            </div>
+            <div class="projects-element">
+              <li class="projects-item">
+                <a href="">
+                  <img src="./img/img_12.jpg" alt="" width="370" />
+                  <h2 class="projects-title">Inspiration has no Borders</h2>
+                  <p class="projects-text">Веб-сайт</p></a
+                >
+              </li>
+            </div>
+            <div class="projects-element">
+              <li class="projects-item">
+                <a href="">
+                  <img src="./img/img_13.jpg" alt="" width="370" />
+                  <h2 class="projects-title">Издание Limited Edition</h2>
+                  <p class="projects-text">Дизайн</p></a
+                >
+              </li>
+            </div>
+            <div class="projects-element">
+              <li class="projects-item">
+                <a href="">
+                  <img src="./img/img_14.jpg" alt="" width="370" />
+                  <h2 class="projects-title">Проект LAB</h2>
+                  <p class="projects-text">Маркетинг</p></a
+                >
+              </li>
+            </div>
+            <div class="projects-element">
+              <li class="projects-item">
+                <a href="">
+                  <img src="./img/img_15.jpg" alt="" width="370" />
+                  <h2 class="projects-title">Growing Business</h2>
+                  <p class="projects-text">Приложение</p></a
+                >
+              </li>
+            </div>
+          </ul>
+        </div>
       </section>
     </main>
     <!--Футер-->
