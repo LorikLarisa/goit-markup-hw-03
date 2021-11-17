@@ -24,18 +24,18 @@
     <!--Шапка сайта-->
     <header class="page-header">
       <div class="container">
-        <nav class="container main-nav">
+        <nav class="main-nav">
           <a class="header-logo logo-nav" href="./index.html"
             >Web<span class="header-logo-dark">Studio</span></a
           >
-          <ul class="site-nav menu-list">
+          <ul class="site-nav link-list">
             <li class="item">
-              <a class="menu-link current" href="./index.html">Студия</a>
+              <a class="link current" href="./index.html">Студия</a>
             </li>
             <li class="item">
-              <a class="menu-link" href="./portfolio.html">Портфолио</a>
+              <a class="link" href="./portfolio.html">Портфолио</a>
             </li>
-            <li class="item"><a class="menu-link" href="">Контакты</a></li>
+            <li class="item"><a class="link" href="">Контакты</a></li>
           </ul>
 
           <ul class="contacts-nav menu-list">
@@ -63,34 +63,34 @@
         </div>
       </section>
       <!--feature-->
-      <section class="section">
+      <section class="section-feature">
         <div class="container">
           <h2 class="visually-hidden">Наши преимущества</h2>
           <ul class="feature-list">
-            <li class="item">
-              <h3 class="title">Внимание к деталям</h3>
-              <p class="feature-list-text">
+            <li class="feature">
+              <h3 class="feature-title">Внимание к деталям</h3>
+              <p class="feature-text">
                 Идейные соображения, а также начало повседневной работы по
                 формированию позиции.
               </p>
             </li>
-            <li class="item">
-              <h3>Пунктуальность</h3>
-              <p class="feature-list-text">
+            <li class="feature">
+              <h3 class="feature-title">Пунктуальность</h3>
+              <p class="feature-text">
                 Задача организации, в особенности же рамки и место обучения
                 кадров влечет за собой.
               </p>
             </li>
-            <li class="item">
-              <h3>Планирование</h3>
-              <p class="feature-list-text">
+            <li class="feature">
+              <h3 class="feature-title">Планирование</h3>
+              <p class="feature-text">
                 Равным образом консультация с широким активом в значительной
                 степени обуславливает.
               </p>
             </li>
-            <li class="item">
-              <h3>Современные технологии</h3>
-              <p class="feature-list-text">
+            <li class="feature">
+              <h3 class="feature-title">Современные технологии</h3>
+              <p class="feature-text">
                 Значимость этих проблем настолько очевидна, что реализация
                 плановых заданий.
               </p>
@@ -98,23 +98,25 @@
           </ul>
         </div>
       </section>
-      <section>
-        <h2 class="section title">Чем мы занимаемся</h2>
-        <ul class="section-work">
-          <li class="work-item">
-            <img src="./img/img_4.jpg" alt="" width="370" />
-          </li>
-          <li class="work-item">
-            <img src="./img/img_5.jpg" alt="веб-сайты" width="370" />
-          </li>
-          <li class="work-item">
-            <img src="./img/img_6.jpg" alt="дизайн" width="370" />
-          </li>
-        </ul>
+      <section class="section-work">
+        <div class="container">
+          <h2 class="section title">Чем мы занимаемся</h2>
+          <ul class="work-list">
+            <li class="work-list-item">
+              <img src="./img/img_4.jpg" alt="" width="370" />
+            </li>
+            <li class="work-list-item">
+              <img src="./img/img_5.jpg" alt="веб-сайты" width="370" />
+            </li>
+            <li class="work-list-item">
+              <img src="./img/img_6.jpg" alt="дизайн" width="370" />
+            </li>
+          </ul>
+        </div>
       </section>
       <!--Наши сотрудники-->
-      <section>
-        <div class="flex-container-team">
+      <section class="team">
+        <div class="container">
           <h2 class="section title">Наша команда</h2>
           <ul class="team-list">
             <li class="team-item">
@@ -143,30 +145,34 @@
     </main>
     <!--Футер-->
     <footer>
-      <a class="header-logo" href="/index.html"
-        >Web<span class="header-logo-light">Studio</span></a
-      >
-      <address class="address">
-        <ul class="contacts-list">
-          <li class="contacts-list-item">
-            <a
-              target="blank"
-              href="https://www.google.com/maps?q=%D0%B3.+%D0%9A%D0%B8%D0%B5%D0%B2,+%D0%BF%D1%80-%D1%82+%D0%9B%D0%B5%D1%81%D0%B8+%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%BA%D0%B8,+26&rlz=1C1MKZV_itPL974PL974&um=1&ie=UTF-8&sa=X&ved=2ahUKEwjQ0f35o9bzAhWI-ioKHfckBtQQ_AUoAXoECAEQAw"
-              class="contacts-address"
-            >
-              г. Киев, пр-т Леси Украинки, 26</a
-            >
-          </li>
-          <li class="contacts-list-item">
-            <a class="contacts-link" href="mailto:info@example.com"
-              >info@example.com</a
-            >
-          </li>
-          <li class="contacts-list-item">
-            <a class="contacts-link" href="tel:+380991111111">+380991111111</a>
-          </li>
-        </ul>
-      </address>
+      <div class="container">
+        <a class="header-logo" href="/index.html"
+          >Web<span class="header-logo-light">Studio</span></a
+        >
+        <address class="address">
+          <ul class="contacts-list">
+            <li class="contacts-list-item">
+              <a
+                target="blank"
+                href="https://www.google.com/maps?q=%D0%B3.+%D0%9A%D0%B8%D0%B5%D0%B2,+%D0%BF%D1%80-%D1%82+%D0%9B%D0%B5%D1%81%D0%B8+%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%BA%D0%B8,+26&rlz=1C1MKZV_itPL974PL974&um=1&ie=UTF-8&sa=X&ved=2ahUKEwjQ0f35o9bzAhWI-ioKHfckBtQQ_AUoAXoECAEQAw"
+                class="contacts-address"
+              >
+                г. Киев, пр-т Леси Украинки, 26</a
+              >
+            </li>
+            <li class="contacts-list-item">
+              <a class="contacts-link" href="mailto:info@example.com"
+                >info@example.com</a
+              >
+            </li>
+            <li class="contacts-list-item">
+              <a class="contacts-link" href="tel:+380991111111"
+                >+380991111111</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
